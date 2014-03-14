@@ -1,0 +1,115 @@
+* { padding:0; margin:0 }
+body {
+	background:#fff;
+	text-align:center;
+	font-family: Tahoma, Calibri, Arial, Tahoma, sans-serif;
+	font-size:0.9em;
+	color:#000;
+	padding:0 100 0 100; 
+
+}
+#main {
+	background:#eee;
+	border:1px solid #000;
+	width:900px; /* uncomment this line to leave the padding in the body{} control the width of the box. This will be dynamic and subject to resizing issues*/
+	margin:20 auto;
+}
+#main h2 {
+	font-size:1.7em;
+}
+#main h3 {
+	font-weight:bold;
+	font-size:1.2em;
+}
+#main h6 {
+	font-weight: normal;
+	font-size:0.7em;
+	padding:0 5 15 5;
+}
+#main p {
+	font-size:inherit;
+}
+#main ul {
+	text-align:left;
+	margin: 5 0 5 300;
+	list-style:none;
+	font-size:1.5em;
+}
+#main ul ul {
+	list-style:square;
+	font-size:0.6em;
+	margin: 10;
+	text-align:left;
+}
+#main ul ul li {
+	padding:2 0 2 0;
+}
+#main table {
+	border:1px solid #000;
+	border-bottom:3px solid #000;
+	border-right:3px solid #000;
+}
+table, tr, td, th {
+	border:1px solid #eee; /* same colour as background colour */
+	padding:0 2;
+	margin:0 auto 10 auto;
+	font-size:0.95em;
+}
+td {
+	text-align:center;
+	border-bottom:1px solid #aaa;
+	border-right:1px solid #aaa;
+}
+td.none {
+	border:none;
+}
+tr.nor {
+	background:#eee;
+}
+tr.alt {
+	background:#ddd;
+}
+tr:hover {
+	background:#cc0;
+}
+tr:hover th, tr.nohover:hover {
+	background:#eee;
+}
+th {
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+}
+.left {
+	text-align:left;
+}
+.right {
+	text-align:right;
+}
+.center {
+	text-align:center;
+}
+.comp {
+	background:#fcc; /* compulsory field */
+}
+input.btn {
+	background:none;
+}
+
+input.dis {
+	background:#ccc;
+	border:1px solid #aaa;
+}
+.password {
+	color:#000;
+	background:#000;
+	text-align:left;
+}
+.small {
+	font-size:0.9em;
+}
+.rage {
+	font-size:1.2em;
+}
+.smaller {
+	font-size:0.8em;
+}
